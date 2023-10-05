@@ -46,7 +46,7 @@ const Actions = [
 ];
 
 const ChatInput = ({ setOpenPicker, setInputMessage, handleKeyDown, inputMessage }) => {
-    const [openAction, setOpenAction] = useState(false);
+    const openAction = false;
     return (
         <StyledInput fullWidth placeholder='Ask Here' variant='filled'
             onKeyDown={handleKeyDown}
@@ -88,7 +88,7 @@ const Footer = ({ setUserInputs, userInputs, setLoading, loading }) => {
     const [openPicker, setOpenPicker] = useState(false);
     const [inputMessage, setInputMessage] = useState('')
     const [data, setData] = useState()
-
+    console.log(openPicker);
     if (data) {
         console.log("++++++++++++++++++++++++")
         console.log(data)
