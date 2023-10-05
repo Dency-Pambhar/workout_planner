@@ -1,0 +1,6 @@
+ name dency pambhar
+ age 21
+ class 12
+ weight 50
+ height  163cm
+ 
