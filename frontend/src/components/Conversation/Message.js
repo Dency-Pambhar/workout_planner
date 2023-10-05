@@ -27,8 +27,6 @@ const Message = ({ menu, userInputs }) => {
                 default:
                   return <TextMsg el={el} menu={menu} />
               }
-              break;
-
             default:
               return <></>;
           }

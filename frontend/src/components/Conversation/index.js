@@ -1,12 +1,12 @@
 import { Box, Stack } from '@mui/material';
 import React, { useState } from 'react';
-import { useTheme } from "@mui/material/styles";
+// import { useTheme } from "@mui/material/styles";
 import Header from './Header';
 import Footer from './Footer';
 import Message from './Message';
 
 const Conversation = () => {
-  const theme = useTheme();
+  // const theme = useTheme();
   const [userInputs, setUserInputs] = useState([]);
   const [loading, setLoading] = useState(false);
   return (

@@ -70,13 +70,6 @@ const ChatInput = ({ setOpenPicker, setInputMessage, handleKeyDown, inputMessage
 
                             ))}
                         </Stack>
-                        <InputAdornment>
-                            {/* <IconButton onClick={() => {
-                                setOpenAction((prev) => !prev)
-                            }}>
-                                <LinkSimple />
-                            </IconButton> */}
-                        </InputAdornment>
                     </Stack>
                 ,
                 endAdornment: <InputAdornment>
